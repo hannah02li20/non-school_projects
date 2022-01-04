@@ -10,5 +10,6 @@ I admit that I did not understand question 2 on the FAQ in the set challenge pdf
 
 # CREDITS!
 I searched online for potential algorithms to complete this challenge and found this code by Henrik Warne: https://github.com/henrikw/SetGame
+  
 In SetGame.java, I will note in front of every function whether it is my work or Mr. Warne's work
 Everything in tests.java is my code
