@@ -1,0 +1,31 @@
+
+# CREDITS!
+    # I searched online for potential algorithms to complete this challenge and found this code by Henrik Warne
+        https://github.com/henrikw/SetGame
+    # In SetGame.java, I will note in front of every function whether it is my work or Mr. Warne's work
+    # Everything in tests.java is my code
+
+
+# colors: (1) yellow, (2) blue, (3) green
+# symbols: (1) A, (2) S, (3) H
+# shading: (1) lowercase a, s, h; (2) uppercase A, S, H; (3) symbolcase @, $, #
+# number: the number of times the symbol appears, 1, 2, or 3
+
+# possible card
+    # blue $$$ = color: blue, symbol: S, shading: $, number: 3
+
+# SETS
+    # 3 cards are only a SET if:
+        # all colors are different or all colors are the same
+        # all symbols are different or all symbols are the same
+        # all shadings are different or all shadings are the same
+        # all numbers are different or all numbers are the same
+
+# DISJOINT SETS
+    # 2 sets are disjoint if:
+        # there are NO common cards between them
+
+# GOAL
+    # 1) find and print the number of total SETS there are in the input
+    # 2) find and print the largest disjoint collection of SETS in the input
+
